@@ -31,7 +31,7 @@ weight = 5
 [[education.courses]]
   course = "B. Tech (Hons) in Mechanical Engineering"
   institution = "Indian Institute of Technology, Kharagpur"
-  year = 1097
+  year = 1997
  
 +++
 
