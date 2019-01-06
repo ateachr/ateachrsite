@@ -4,6 +4,22 @@
     
     <url>
     
+      <loc>/post/2015-07-23-r-rmarkdown/</loc>
+      <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/post/2019-01-05-starting-r/</loc>
+      <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tutorial/example/</loc>
       <lastmod>2018-09-09T00:00:00-04:00</lastmod>
     </url>
@@ -92,14 +108,6 @@
     
     <url>
     
-      <loc>/post/2015-07-23-r-rmarkdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/publication/clothing-search/</loc>
       <lastmod>2013-07-01T00:00:00-04:00</lastmod>
     </url>
@@ -180,7 +188,7 @@
     <url>
     
       <loc>/categories/r/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <lastmod>2019-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -189,7 +197,7 @@
     <url>
     
       <loc>/tags/r-markdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <lastmod>2019-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -230,17 +238,8 @@
     
     <url>
     
-      <loc>/tags/plot/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/regression/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <loc>/tags/git/</loc>
+      <lastmod>2019-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
