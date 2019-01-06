@@ -3,11 +3,11 @@
 # An example of using the custom widget to create your own homepage section.
 # To create more sections, duplicate this file and edit the values below as desired.
 widget = "custom"
-active = true
+active = false
 date = 2016-04-20T00:00:00
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Teaching"
+title = "Courses"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -19,7 +19,7 @@ I teach courses in Big Data Analytics, Mobile Development, Artificial Intelligen
 
 ## Big Data Courses
 
-- TO404: Big Data Manipulation & Visualization  
+- [TO404: Big Data Manipulation & Visualization](https://ateachr.com)  
 - TO414: Advanced Analytics
 - TO628: Advanced Big Data Analytics
 

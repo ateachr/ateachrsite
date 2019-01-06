@@ -283,10 +283,10 @@ enableGitInfo = true
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # [[params.social]]
-  #   icon = "cv"
-  #   icon_pack = "ai"
-  #   link = "files/cv.pdf"
+   [[params.social]]
+     icon = "cv"
+     icon_pack = "ai"
+     link = "files/cv.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -306,22 +306,22 @@ enableGitInfo = true
 #  url = "#publications_selected"
 #  weight = 2
 
-[[menu.main]]
-  name = "Teaching"
-  url = "#Teaching"
+#[[menu.main]]
+#  name = "Teaching"
+#  url = "#custom"
 #  url = "/post/"
-  weight = 2
+#  weight = 2
   
 [[menu.main]]
   name = "Posts"
-#  url = "#posts"
-  url = "/post/"
+  url = "#posts"
+#  url = "/post/"
   weight = 3
 
-#[[menu.main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 4
+[[menu.main]]
+  name = "Teaching"
+  url = "#projects"
+  weight = 2
 
 #[[menu.main]]
 #  name = "Tutorials"

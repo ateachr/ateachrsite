@@ -1,14 +1,14 @@
 +++
 # Projects widget.
 widget = "projects"
-active = false
+active = true
 date = 2016-04-20T00:00:00
 
-title = "Projects"
+title = "Teaching"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 50
+weight = 2
 
 # Content.
 # Display content from the following folder.
@@ -18,7 +18,7 @@ folder = "project"
 # View.
 # Customize how projects are displayed.
 # Legend: 0 = list, 1 = cards, 2 = showcase.
-view = 1
+view = 2
 
 # Widget layout
 # Legend: 0 = two columns (default), 1 = single column
@@ -41,12 +41,16 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Deep Learning"
-  tag = "Deep Learning"
+  name = "Big Data Analytics"
+  tag = "Big Data Analytics"
 
 [[filter]]
-  name = "Other"
-  tag = "Demo"
+  name = "Technology Innovation"
+  tag = "Technology Innovation"
+
+[[filter]]
+  name = "Artificial Intelligence"
+  tag = "Artificial Intelligence"
 
 +++
 
