@@ -6,7 +6,6 @@
     <description>Recent content in Homes on Sanjeev Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
@@ -126,9 +125,9 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-I am a teaching instructor for the following courses at University X:
- CS101: An intro to computer science CS102: An intro to computer science CS103: An intro to computer science CS104: An intro to computer science CS105: An intro to computer science CS106: An intro to computer science CS107: An intro to computer science  </description>
+      <description> I teach courses in Big Data Analytics, Mobile Development, Artificial Intelligence and Technology Innovation.
+Big Data Courses  TO404: Big Data Manipulation &amp;amp; Visualization
+ TO414: Advanced Analytics TO628: Advanced Big Data Analytics  Technology Innovation Courses  TO426/TO626: Mobile Innovation Development  Artificial Intelligence Courses  TO433/TO633: Artificial Intelligence for Business  </description>
     </item>
     
     <item>

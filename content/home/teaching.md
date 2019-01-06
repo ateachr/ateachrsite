@@ -15,14 +15,18 @@ weight = 60
 
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
+I teach courses in Big Data Analytics, Mobile Development, Artificial Intelligence and Technology Innovation. 
 
-I am a teaching instructor for the following courses at University X:
+## Big Data Courses
 
-- CS101: An intro to computer science
-- CS102: An intro to computer science
-- CS103: An intro to computer science
-- CS104: An intro to computer science
-- CS105: An intro to computer science
-- CS106: An intro to computer science
-- CS107: An intro to computer science
+- TO404: Big Data Manipulation & Visualization  
+- TO414: Advanced Analytics
+- TO628: Advanced Big Data Analytics
+
+## Technology Innovation Courses
+
+- TO426/TO626: Mobile Innovation Development
+
+## Artificial Intelligence Courses
+
+- TO433/TO633: Artificial Intelligence for Business
