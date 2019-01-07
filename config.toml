@@ -311,12 +311,18 @@ enableGitInfo = true
 #  url = "#custom"
 #  url = "/post/"
 #  weight = 2
-  
+
 [[menu.main]]
-  name = "Posts"
+  name = "Recent Posts"
   url = "#posts"
 #  url = "/post/"
   weight = 3
+  
+[[menu.main]]
+  name = "Posts Archive"
+#  url = "#posts"
+  url = "/post/"
+  weight = 4
 
 [[menu.main]]
   name = "Teaching"

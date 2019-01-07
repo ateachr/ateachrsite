@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.2.0">
+  <meta name="generator" content="Hugo 0.52" />
+  <meta name="author" content="Sanjeev Kumar">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Our Tools: R, RStudio R is awesome. R is also considered pretty difficult to learn. In my opinion, that&rsquo;s not true. In this chapter, we will quickly get out feet wet in the shallow end of the R pool - ready to jump off the deep end in the succeeding chapters.
+Introduction to R and RStudio For the purpose of this course, R is a Statistical Computing Environment. It provides us with an underlying computer language, analysis tools and software platform for us to work with data.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/first-steps-with-r-rstudio.knit/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Sanjeev Kumar">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Sanjeev Kumar">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/first-steps-with-r-rstudio.knit/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@a_teachr">
+  <meta property="twitter:creator" content="@a_teachr">
+  
+  <meta property="og:site_name" content="Sanjeev Kumar">
+  <meta property="og:url" content="/post/first-steps-with-r-rstudio.knit/">
+  <meta property="og:title" content="First Steps with R and RStudio | Sanjeev Kumar">
+  <meta property="og:description" content="Our Tools: R, RStudio R is awesome. R is also considered pretty difficult to learn. In my opinion, that&rsquo;s not true. In this chapter, we will quickly get out feet wet in the shallow end of the R pool - ready to jump off the deep end in the succeeding chapters.
+Introduction to R and RStudio For the purpose of this course, R is a Statistical Computing Environment. It provides us with an underlying computer language, analysis tools and software platform for us to work with data."><meta property="og:image" content="/img/SanjeevKumar.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-01-07T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-01-07T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>First Steps with R and RStudio | Sanjeev Kumar</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Sanjeev Kumar</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Recent Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/post/">
+            
+            <span>Posts Archive</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">First Steps with R and RStudio</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Sanjeev Kumar">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-01-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2019-01-07 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jan 7, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Sanjeev Kumar">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    18 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=First%20Steps%20with%20R%20and%20RStudio&amp;url=%2fpost%2ffirst-steps-with-r-rstudio.knit%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2ffirst-steps-with-r-rstudio.knit%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2ffirst-steps-with-r-rstudio.knit%2f&amp;title=First%20Steps%20with%20R%20and%20RStudio"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2ffirst-steps-with-r-rstudio.knit%2f&amp;title=First%20Steps%20with%20R%20and%20RStudio"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=First%20Steps%20with%20R%20and%20RStudio&amp;body=%2fpost%2ffirst-steps-with-r-rstudio.knit%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h1 id="our-tools-r-rstudio">Our Tools: R, RStudio</h1>
+
+<p>R is awesome. R is also considered pretty difficult to learn. In my opinion, that&rsquo;s not true. In this chapter, we will quickly get out feet wet in the shallow end of the R pool - ready to jump off the deep end in the succeeding chapters.</p>
+
+<h2 id="introduction-to-r-and-rstudio">Introduction to R and RStudio</h2>
+
+<p>For the purpose of this course, R is a Statistical Computing Environment. It provides us with an underlying computer language, analysis tools and software platform for us to work with data. While R is pretty powerful, it is built by geeks for geeks. As a result, it lacks the user-friendliness needed by beginners and casual users. To help mitigate this problem, we do not directly interface with R and instead use the user friendly RStudio software as a wrapper around R. RStudio is often considered an IDE (Integrated Development Environment) for R.</p>
+
+<p>For the record, R is a pretty awful name for anything - try googling &ldquo;R&rdquo; and see how relevant the search results are! It is called R after the first name of the two authors of R: Robert and Ross. The name kinda makes sense when you consider that R is based on another programming language named S.</p>
+
+<h3 id="download-and-install-r-and-rstudio">Download and Install R and RStudio</h3>
+
+<p>R can be downloaded from any of the mirror sites maintained by the Comprehensive R Archive Network (&ldquo;CRAN&rdquo;). I recommend the CRAN Mirror maintained by RStudio: <a href="https://cran.rstudio.com/" target="_blank">https://cran.rstudio.com/</a>. Here you will find links to download R for Windows, Mac-OS and Linux. The current version of R available for Windows is R 3.4.3 and measures at around 70MB. Follow the directions to install the starting packages for R - often called &ldquo;Base R&rdquo;.</p>
+
+<p>Even though we will not use a bare R installtion - lets take a look at it anyway. Launch R once the installation finishes. It will look similar to the figure below. This window is called the R Console. As you would note - it looks a little scary - no icons, nothing clickable, no menu even. While it is possible for us to do everything we wish to do with R just with the R Console, it really would be nice to make our experience with R a little more user friendly. Lucky for us, we have RStudio to pick up the slack here.</p>
+
+<p><img src="images/rbase.png" alt="Staring Window of Base R Installation" /></p>
+
+<p>Once you have finished installing R, you can download and install RStudio from: <a href="https://www.rstudio.com/products/rstudio/download/" target="_blank">https://www.rstudio.com/products/rstudio/download/</a>. There again are installers available for Windows, Mac-OS and Linux. After you are done installing RStudio, you should launch RStudio to check that everything is installed and connected properly. When you launch RStudio for the first time, you will see something similar to the figure below.</p>
+
+<p><img src="images/rstudio.png" alt="Staring Window of RStudio" /></p>
+
+<p>The larger part of the RStudio window is same as the R Console and this is in-fact R running inside RStudio. When we launched R independently, this is the prompt that you we got. RStudio combines this direct access to R with other useful elements. In the bottom right, you have access to the file system, you can manage R packages (more about them later), read Help documentation and see various plots and charts that you will soon be building. In the top right, RStudio provides you with details of current R environment and a history of your recent R commands. If you are using Git repository for your files then you will see Git tab here.</p>
+
+<p>Now that we have both R and RStudio set up, it is time for us to get started in making some use of it. Note that the R environment is used primarily by typing commands on the Console prompt or running commands saved in a file - typically a R Script file or a RMarkdown file. While RStudio provides GUI elements for many common tasks, we will emphasize corresponding command line versions which usually provide better control and flexibility compared to their GUI counterparts.</p>
+
+<h2 id="useful-features-of-rstudio">Useful Features of RStudio</h2>
+
+<h3 id="console">Console</h3>
+
+<p>The console is where you can interact directly with the R system. You can write one line at a time and immediately execute it there by pressing enter. If you wish to write more than one command in one line then you can separate the commands using the semi-colon character. The console is essentially an R session running inside RStudio. The console shows a command prompt (usually the <code>&gt;</code>}) character to indicate that you can type there. You can change the prompt by changing the options setting.<sup class="footnote-ref" id="fnref:I-once-thought-i"><a href="#fn:I-once-thought-i">1</a></sup></p>
+
+<h3 id="editor">Editor</h3>
+
+<p>The editor is where you can work on and edit all of your files. This is a pure text editor - so no formatting of any kind. You will mostly be working with RMD files here. The tab panel at the top of the editor allows you to work on multiple files at once. The editor window is hidden when you start RStudio as you usually don&rsquo;t have a file to edit when you begin. Once you create/open a new file then they will open in the editor window and you can edit them. The editor window helpfully shows you the line numbers in left column and the cursor positioning in the line at the bottom left corner. The bottom right corner shows you the file type that you are working on. There are usual icons for saving a file, finding, spell check etc on the top bar. See Figure: \ref{fig:editor} for an example.</p>
+
+<p><img src="images/editor.png" alt="RStudio Editor Window" /></p>
+
+<h3 id="environment">Environment</h3>
+
+<p>The Environment tab shows you all of the variables currently stored in memory and what their values are.We haven&rsquo;t said what variables are as yet. Hold on - its coming in the next chapter. The tab in fact shows all the objects that currently exist in your R session. Objects will be discussed very soon, later in this chapter. Environment tab is a very useful place to have a quick look at the state of your current R session. The environment tab has a handy broom icon for deleting all the objects that exist and clearning your environment. You can, of course, do that using a command as well - <strong><code>rm</code></strong> for remove or delete. The command <strong><code>ls</code></strong> generates a list of all the objects in the environment. We can combine the two to delete every object in the environment if we so choose:</p>
+
+<pre><code class="language-r">rm(list = ls()) #Delete every object in the environment
+</code></pre>
+
+<h3 id="history">History</h3>
+
+<p>The History tab shows you the history of all the commands you have entered in the Console window. You can use available icons on top to search through the history or delete items from the history. Two very useful icons are for transferring commands to the console and to the source. See details in figure below. . The <code>To Console</code> option allows you to select one or more commands from the history and transfers them to the Console window where you can run them by pressing Enter. The <code>To Source</code> option sends the selected commands to the Editor window, to the currently open and active file.</p>
+
+<div class="figure" style="text-align: center">
+<img src="images/history.png" alt="RStudio History Window" width="50%" />
+<p class="caption">(\#fig:unnamed-chunk-2)RStudio History Window</p>
+</div>
+
+<h3 id="files">Files</h3>
+
+<p>The Files tab allows you to navigate through your filesystem, making it easy to load files into Rstudio. It shows the content of the current working directory when RStudio starts. You can navigate through the file system of your machine using the available options. The top icons provide ability to create a new folder, delete selected files, rename selected files and refresh file listings. The <code>More</code> option reveals further functionalities including two useful ones: the ability to set the currently displayed directory as the working directory and the ability to get the Files tab to display the contents of the current working directory. Figure:  shows the options.</p>
+
+<div class="figure" style="text-align: center">
+<img src="images/files.png" alt="RStudio Files Tab" width="50%" />
+<p class="caption">(\#fig:unnamed-chunk-3)RStudio Files Tab</p>
+</div>
+
+<h3 id="plots">Plots</h3>
+
+<p>the Plots tab shows the plots generated by the commands typed in the Console. See figure show the plot generated by the <code>plot(cars)</code> command in the Plots tab. As you can see, you can use options to zoom in/out and export the plot image as an image file or a PDF document. Plots made by R plots are Vector graphics and hence should be saved in vector formats like PNG and not bitmap formats like JPG.</p>
+
+<div class="figure" style="text-align: center">
+<img src="images/plots.png" alt="Plots Window with a Demo Plot" width="50%" />
+<p class="caption">(\#fig:unnamed-chunk-4)Plots Window with a Demo Plot</p>
+</div>
+
+<h3 id="packages">Packages</h3>
+
+<p>The Packages tab shows you a list of all the packages installed on your system and their version number. You can check the checkbox next to the package name to manually load packages during your R session. You will also find icons for installing and updating packages. A search icon allows for searching among installed packages.</p>
+
+<h3 id="help">Help</h3>
+
+<p>As the name suggests, the Help tab can be used to find Help documentation on specific keywords. You can search for a keyword in the search field for looking at corresponding help documentation. If you write a help command in the console, then the output of that will also show in the Help tab. For example, if you type the command below (looking for help on &ldquo;help&rdquo;), you will get the help documentation as shown in figure below.</p>
+
+<pre><code class="language-r">help(&quot;help&quot;)
+</code></pre>
+
+<div class="figure" style="text-align: center">
+<img src="images/help.png" alt="Helo Window on 'Help'" width="80%" />
+<p class="caption">(\#fig:unnamed-chunk-6)Helo Window on 'Help'</p>
+</div>
+
+<h2 id="helpful-menu-items-and-keyboard-shortcuts">Helpful Menu Items and Keyboard Shortcuts</h2>
+
+<h2 id="essential-r-tips-and-tricks">Essential R Tips and Tricks</h2>
+
+<h3 id="r-is-case-specific-and-space-neutral">R is Case Specific and Space Neutral</h3>
+
+<p>Everything in R is case specific. In R, upper case letters are considered completely different than their lower case counterparts. R will show no mercy if you mistype something in a difference case. However, R is pretty flexible about spaces and will usually accept multiple (or none) spaces where the default expectation is one space.</p>
+
+<h3 id="comments-and-line-continuation">Comments and Line Continuation</h3>
+
+<p>You can add your comments/remarks in your R code by inserting the <code>#</code> character. Any text after the <code>#</code> character will be ignored by R during execution. It is essential that sufficient comments are added to your R code so that the code remains understandable and if you share your code with somebody else then they have a way of figuring out what you are trying to do, why and how.</p>
+
+<p>R is smart enough to figure when the command is not finished and allows you to continue typing on the next line. This usually works well when there are un-finished parentheses or operators at the end. R indicates that it is expecting further inputs by showing the character <code>+</code> at the beginning of the next line. See figure for an example.</p>
+
+<div class="figure" style="text-align: center">
+<img src="images/incomplete.png" alt="Line Continuation for Incomplete Commands" width="50%" />
+<p class="caption">(\#fig:unnamed-chunk-7)Line Continuation for Incomplete Commands</p>
+</div>
+
+<h3 id="naming-conventions">Naming Conventions</h3>
+
+<p>Object names in R can consist of any combination of alphanumeric characters (<code>a-z</code>, <code>A-Z</code>}, <code>0-9</code>) as well as underscore <code>-</code> and <code>.</code> characters. Object names should not include special characters such as <code>?</code> or space. Object names must start with a letter or a period. Special care should be taken to not include one of the reserved keywords (like <code>function</code> or <code>help</code>) as object names.</p>
+
+<h2 id="rmarkdown-rmd-files">RMarkdown (RMD) Files</h2>
+
+<p>We will use extensive ise of RMarkdown files in the class. Markdown is a simple formatting syntax for authoring documents. RMarkdown allows you to create Markdown documents with embedded R code in them. RMarkdown documents can then be rendered in variety of output formats such as HTML, PDF, and MS Word documents.</p>
+
+<p>RStudio streamlines the process of creating an RMarkdown file. Getting started is easy - in RStudio, go File -&gt; New File -&gt; R Markdown (or Alt-F-F-M). This will start a new RMD file for you. It needs some startup information to proceed first, as shown in the image below:</p>
+
+<p>Title and Author are self explanatory. As the dialog suggests, you can choose HTML, PDF of Word as default output formats. PDF and Word require you to have a local installed version of TeX or MS-Word. For our class, I recommend that you use HTML as the default output - it is device and platform independent - and capable of handling variety of rich media. We will see later how to include dynamic content like animation and user interaction in these HTML files as well.</p>
+
+<p>Once you say OK, you will be taken to the default start page. This page has some content already to help you started. You should be able to see the preamble right on top that will generate your document headers and also control various options:</p>
+
+<pre><code>title: &quot;Untitled&quot;
+author: &quot;Dr. Sanjeev Kumar&quot;
+date: &quot;May 5, 2018&quot;
+output: html_document
+</code></pre>
+
+<p>You can make changes by either hand-editng the information above or by clicking the Edit Option icon (which looks like a gear) and choosign your options. For example, the preamble for one of my document looks like the following:</p>
+
+<pre><code>title: &quot;How To Write RMarkdown Files&quot;
+author: &quot;Dr. Sanjeev Kumar&quot;
+date: &quot;May 5, 2016&quot;
+output:
+  html_document: 
+    highlight: tango
+    number_sections: yes
+</code></pre>
+
+<p>Now you can go ahead and add content to your document. When you want to create the output,  click the <code>Knit</code> button and a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. We will see later in the document how to embed R code in RMD files.</p>
+
+<p>It is easy to format RMarkdown files and embed R code in them. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" target="_blank">http://rmarkdown.rstudio.com</a>.</p>
+
+<h2 id="embedding-r-code-blocks-in-rmd-files">Embedding R Code Blocks in RMD Files</h2>
+
+<h3 id="embedding-options">Embedding Options</h3>
+
+<ul>
+<li>echo</li>
+<li>eval</li>
+<li>cache</li>
+<li>label</li>
+<li>fig.height/width</li>
+</ul>
+
+<h3 id="embedding-code-blocks-of-other-languages">Embedding Code Blocks of Other Languages</h3>
+
+<h3 id="embedding-in-line-r-code">Embedding in-line R Code</h3>
+
+<h3 id="reproducibility-of-data-analysis">Reproducibility of Data Analysis</h3>
+
+<p>A key advantage of using an RMD file is that the output contains both the R code and the output. That allows for a precise matching of what steps were performed to reach a specific output. Consider the example of a complex chart made in MS-Excel - you would be hard pressed to figure out what exactly was done to create that chart. Whether the chart has some data manipulation in it, whether the chart inadvertently includes a mistake - there is no transparency - and hence you are likely to not have much trust in the chart. In the case of RMD files on the other hand, the entire process of creating the chart is right there in the form of R commands. Anybody else with the same data and the same commands will reach exactly the same output. Your analysis can be reproduced by anybody else - imporving the reliability and trustworthiness of your analysis.</p>
+
+<p>We discussed &ldquo;veracity&rdquo; as one of the four Vs of Big Data. Doing data analytics in a way that is reproducible (e.g through an RMD file) goes a long way towards establishing confidence in the results of the analysis.</p>
+
+<h2 id="key-features-of-r-rstudio-ecosystem">Key Features of R/RStudio Ecosystem</h2>
+
+<h3 id="open-source-software">Open Source Software</h3>
+
+<p>Open Source Software is a broad term for software that is developed by a community of volunteers and is available free of charge for you and I to use. R is open source with a strong and dedicated community that takes the stewardship of R very very seriously.</p>
+
+<p>As R is open source, the underlying computer code (the source code) is available for anyone to view and modify. All these extra eyes looking at the code usually means a more reliable, error free and malware resistant software.</p>
+
+<p>Open source nature of R has both positive and negative impacts. On the positive side, the community helps extend R rapidly by building new packages with new capabilities very quickly. On the negative side, the R platform is built by experts for experts - the focus is on capability and precision - not on ease of use. This makes R a swiss army knife of that is capable of doing almost everything possible in data domain but a knife that can be difficult to learn how to use.</p>
+
+<h3 id="extensability-of-r">Extensability of R</h3>
+
+<p>R is desiged to be easily extended. You, me and everyone else can write new functionalities for R and have it available for everyone in the world to download and use. The R community has been writing extensions for decades now and the result is a library of thousands of packages. If there is anything data analysis related that you want to do, chances are that somebody else wanted to do it too, has already built a package for it that you can download and use.</p>
+
+<p>Easy extensability of R is one of the main reasons why R remained the most capable, cutting edge data analytical platform for decades now. R community has written packages to allow you write SQL commands, C++ commands, build geo-maps, build predictive models - all within the R platform. New developments tend to get incorporated in R much faster than in competing statistical software such as Stata, SAS or SPSS.</p>
+
+<h3 id="usability-of-r">Usability of R</h3>
+
+<p>R is not graphical. Much of R&rsquo;s capabilities are accessed through typing R commands rather than clicking buttons or accessing menus. R commands allow a level of precision and flexibility that is typically now achievable through a graphical interface. Doing complex tasks successfully in R involves writing a sequence of R commands that are closer to coding in a programming language than using a point and click software.</p>
+
+<p>While R can be considered to have a steep learning curve, it should be noted that once you get through the learning curve and get used to R&rsquo;s syntax, you can slice through complex data analysis with much greater speed and capability than competing alternatives. In my opinion, the learning curves for R and competing graphical alternatives look like the figure below. R starts slower and has a difficult jumpstart but if you stay with it for a little bit then R handily outperforms the graphical alternatives.</p>
+
+<pre><code class="language-r">curve(x^2,from = 0,to = 3, xlab = &quot;Time&quot;, ylab=&quot;Expertise&quot;, 
+      col = &quot;red&quot;, lwd=2, xaxt = 'n', yaxt = 'n')
+abline(a = 2,b = 1, col = &quot;blue&quot;, lwd = 2)
+</code></pre>
+
+<div class="figure">
+<img src="First-Steps-With-R-RStudio_files/figure-html/unnamed-chunk-9-1.png" alt="Learning Curves for R (red) and alternatives (blue)" width="672" />
+<p class="caption">(\#fig:unnamed-chunk-9)Learning Curves for R (red) and alternatives (blue)</p>
+</div>
+
+<h3 id="r-is-not-verbose">R is NOT Verbose</h3>
+
+<p>In fact R is very very concise. It will not give you an output until you ask for it. This is very different than most statistical software that tend to overwhelm the user with every possible output possible. R allows you the flexibility to specifically request the levek of detail you need. By default, R will provide only the minimal amount of output.</p>
+
+<h3 id="object-oriented-programming">Object Oriented Programming</h3>
+
+<h3 id="r-community-s-sense-of-humor">R Community&rsquo;s Sense of Humor</h3>
+
+<p>R community is a hard working one - they are continuously building new and latest packages - making the R ecosystem even better. R community is also a fun one - a clever one at the very least. For example - look at the nickname for the current version:</p>
+
+<pre><code class="language-r">version$nickname
+</code></pre>
+
+<pre><code>## [1] &quot;Kite-Eating Tree&quot;
+</code></pre>
+
+<p>The R community is very helpful and will answer your questions if you post on relevant forums like StackExchange.com. However, they don&rsquo;t suffer fools and xpect people who ask questions to have done their homework. Over the years, the R community has developed an extensive knowledgebase that is only a google search away for you. As you go further in your exploration of R, attempt to learn from the community and hopefully one day be a bonafide member of the community.</p>
+
+<h2 id="common-issues-pitfalls-bugs-obstacles-and-their-solutions">Common Issues, Pitfalls, Bugs, Obstacles and Their Solutions</h2>
+
+<p>This section is my master list of common issues that students encounter when they start working with R. You may want to not read this in full right now - treat this as a reference section. When you run into an issue, come by here and see if I have a solution for you.</p>
+
+<h3 id="i-have-an-older-r-installtion-how-do-i-upgrade-it">I have an older R installtion. How do I upgrade it?</h3>
+
+<p>You might have an old, not updated version of R in your machine. You can check the current version of your R by running the <code>version</code> command. If you have an older version and if you are in a Windows machine, then upgrading your R installation is easy with the <code>installr</code> package. The <code>installr</code> package has the handy <code>updateR</code> command that will automatically update your R installation to the latest one. A sample code to accomplish this is below:</p>
+
+<pre><code class="language-r">#Sample code, not being evaluated here
+install.packages(&quot;installr&quot;) # install the installr package 
+library(installr)
+updateR() # updating your R version
+version # command for checking your current R version
+</code></pre>
+
+<p>If you happen to be in a Mac or Linux machine, then you would want to download the current version of R and install. This process is similar to installing a fresh new installation of R as discussion in a previous section.</p>
+
+<h3 id="help-i-am-not-being-able-to-install-any-packages">Help - I am not being able to install any packages!</h3>
+
+<p>If you are unable to install R packages, there are a few things we can try.<sup class="footnote-ref" id="fnref:I-am-not-going-t"><a href="#fn:I-am-not-going-t">2</a></sup> First thing to check would be your anti-virus software. Several anti-virus software balk at allowing R to perform tasks that may be interpreted as a security risk (for example - downloading and installing packages from the Internet). You can try to work around this by disabling/uninstalling your anti-virus or adding R to the exceptions list in the anti-virus.</p>
+
+<p>You may also want to check whether you have administrator access in the machine you are working on. Several essential tasks in R require the user to have administrator access.</p>
+
+<p>Lastly, R may be attempting to install packages into a directory that it does not have write permissions on. This can sometimes happen if you are on a computer on a network with mapped drives. You can work around this problem by asking R to install your packages in a safe, editable directory where you have write access. R installs all packages in a library directory - you can find out the current location of the library directory with the <code>.libPaths</code> command. You can use the <code>.libPaths</code> command to then add a directory location as your personal library location so that R can then install packages in that directory. A sample code to accomplish this is shown below: <sup class="footnote-ref" id="fnref:Last-command-com"><a href="#fn:Last-command-com">3</a></sup></p>
+
+<pre><code class="language-r">.libPaths() #Shows the current library path
+</code></pre>
+
+<pre><code>## [1] &quot;/Library/Frameworks/R.framework/Versions/3.4/Resources/library&quot;
+</code></pre>
+
+<pre><code class="language-r"># You can add your own library folder to the path
+#libPaths( c( .libPaths(), &quot;C:/Whatever/Whatever...&quot;) )
+</code></pre>
+
+<h3 id="why-is-the-edit-command-not-working-for-me">Why is the edit command not working for me?</h3>
+
+<p>One of the first R commands that gives trouble is the <code>edit</code> command. As the name suggests, <code>edit</code> is used for editing data - typically it shows the data to be edited in a table format with editable cells. This specific command (and its cousin, the <code>fix</code> command) seems to be very sensitive to the keyboard layouts, especially on Apple machines. This problem is hardware oriented and may prove difficult to solve. I usually recommend to ignore these two commands and take care of your data editing needs using alternative methods. If you were using <code>edit</code> for only viewing the data, then <code>View</code> is a good alternative for that.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:I-once-thought-i">I once thought it was very clever to have this as my prompt &ldquo;Sanjeev Says: &ldquo;. I no longer think so. <a class="footnote-return" href="#fnref:I-once-thought-i"><sup>^</sup></a></li>
+<li id="fn:I-am-not-going-t">I am not going to insult your intelligence by asking you to make sure that you have a live Internet connection! <a class="footnote-return" href="#fnref:I-am-not-going-t"><sup>^</sup></a></li>
+<li id="fn:Last-command-com">Last command commented as C:/Whatever does not exist obviously - so would have resulted in an error - hence it is commented out. <a class="footnote-return" href="#fnref:Last-command-com"><sup>^</sup></a></li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/SanjeevKumar.jpg" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">Sanjeev Kumar</a></h5>
+    <h6 class="card-subtitle">Lecturer of Technology &amp; Operations</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a itemprop="sameAs" href="mailto:sankum@umich.edu" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://twitter.com/a_teachr" target="_blank" rel="noopener">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://github.com/ateachr" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="/" >
+          <i class="fas fa-"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
+
+    
+
+  </body>
+</html>
+

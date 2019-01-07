@@ -4,7 +4,7 @@
     
     <url>
     
-      <loc>/tutorial/example/</loc>
+      <loc>https://www.ateachr.com/tutorial/example/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
     
-      <loc>/tutorial/</loc>
+      <loc>https://www.ateachr.com/tutorial/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
     </url>
     
@@ -20,7 +20,7 @@
     
     <url>
     
-      <loc>/privacy/</loc>
+      <loc>https://www.ateachr.com/talk/example/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
     </url>
     
@@ -28,7 +28,7 @@
     
     <url>
     
-      <loc>/talk/example/</loc>
+      <loc>https://www.ateachr.com/post/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
     </url>
     
@@ -36,7 +36,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>https://www.ateachr.com/publication/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
     </url>
     
@@ -44,7 +44,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>https://www.ateachr.com/talk/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
     </url>
     
@@ -52,15 +52,7 @@
     
     <url>
     
-      <loc>/talk/</loc>
-      <lastmod>2019-01-05T11:23:54-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/to404/</loc>
+      <loc>https://www.ateachr.com/project/to404/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
@@ -68,7 +60,7 @@
     
     <url>
     
-      <loc>/project/to414/</loc>
+      <loc>https://www.ateachr.com/project/to414/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
@@ -76,7 +68,7 @@
     
     <url>
     
-      <loc>/project/to426/</loc>
+      <loc>https://www.ateachr.com/project/to426/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
@@ -84,7 +76,7 @@
     
     <url>
     
-      <loc>/project/to433/</loc>
+      <loc>https://www.ateachr.com/project/to433/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
@@ -92,7 +84,7 @@
     
     <url>
     
-      <loc>/project/to626/</loc>
+      <loc>https://www.ateachr.com/project/to626/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
@@ -100,7 +92,7 @@
     
     <url>
     
-      <loc>/project/to628/</loc>
+      <loc>https://www.ateachr.com/project/to628/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
@@ -108,7 +100,7 @@
     
     <url>
     
-      <loc>/project/to633/</loc>
+      <loc>https://www.ateachr.com/project/to633/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
@@ -116,15 +108,15 @@
     
     <url>
     
-      <loc>/project/wmba621/</loc>
-      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
+      <loc>https://www.ateachr.com/project/wmba621/</loc>
+      <lastmod>2019-01-07T08:30:44-05:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>/post/getting-started/</loc>
+      <loc>https://www.ateachr.com/post/getting-started/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
     </url>
     
@@ -132,15 +124,15 @@
     
     <url>
     
-      <loc>/post/git-shortcuts/</loc>
-      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
+      <loc>https://www.ateachr.com/post/git-shortcuts/</loc>
+      <lastmod>2019-01-07T08:30:44-05:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>/publication/person-re-id/</loc>
+      <loc>https://www.ateachr.com/publication/person-re-id/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
     </url>
     
@@ -148,7 +140,7 @@
     
     <url>
     
-      <loc>/publication/clothing-search/</loc>
+      <loc>https://www.ateachr.com/publication/clothing-search/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
     </url>
     
@@ -156,7 +148,7 @@
     
     <url>
     
-      <loc>/publication_types/1/</loc>
+      <loc>https://www.ateachr.com/publication_types/1/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -165,7 +157,7 @@
     
     <url>
     
-      <loc>/publication_types/2/</loc>
+      <loc>https://www.ateachr.com/publication_types/2/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -174,7 +166,7 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
+      <loc>https://www.ateachr.com/tags/academic/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -183,7 +175,7 @@
     
     <url>
     
-      <loc>/tags/android/</loc>
+      <loc>https://www.ateachr.com/tags/android/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -192,7 +184,7 @@
     
     <url>
     
-      <loc>/tags/artificial-intelligence/</loc>
+      <loc>https://www.ateachr.com/tags/artificial-intelligence/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -201,7 +193,7 @@
     
     <url>
     
-      <loc>/tags/big-data-analytics/</loc>
+      <loc>https://www.ateachr.com/tags/big-data-analytics/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -210,7 +202,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>https://www.ateachr.com/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -218,7 +210,7 @@
     
     <url>
     
-      <loc>/tags/entrepreneurship/</loc>
+      <loc>https://www.ateachr.com/tags/entrepreneurship/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -227,7 +219,7 @@
     
     <url>
     
-      <loc>/tags/java/</loc>
+      <loc>https://www.ateachr.com/tags/java/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -236,7 +228,7 @@
     
     <url>
     
-      <loc>/tags/machine-learning/</loc>
+      <loc>https://www.ateachr.com/tags/machine-learning/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -245,7 +237,7 @@
     
     <url>
     
-      <loc>/tags/predictive-analytics/</loc>
+      <loc>https://www.ateachr.com/tags/predictive-analytics/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -254,7 +246,7 @@
     
     <url>
     
-      <loc>/project/</loc>
+      <loc>https://www.ateachr.com/project/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -263,7 +255,7 @@
     
     <url>
     
-      <loc>/publication_types/</loc>
+      <loc>https://www.ateachr.com/publication_types/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -272,7 +264,7 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
+      <loc>https://www.ateachr.com/tags/r/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -281,8 +273,8 @@
     
     <url>
     
-      <loc>/tags/rstudio/</loc>
-      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
+      <loc>https://www.ateachr.com/tags/rstudio/</loc>
+      <lastmod>2019-01-07T08:30:44-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -290,7 +282,7 @@
     
     <url>
     
-      <loc>/</loc>
+      <loc>https://www.ateachr.com/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -299,7 +291,7 @@
     
     <url>
     
-      <loc>/slides/</loc>
+      <loc>https://www.ateachr.com/slides/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -308,7 +300,7 @@
     
     <url>
     
-      <loc>/slides/example-slides/</loc>
+      <loc>https://www.ateachr.com/slides/example-slides/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
     </url>
     
@@ -316,7 +308,7 @@
     
     <url>
     
-      <loc>/tags/tableau/</loc>
+      <loc>https://www.ateachr.com/tags/tableau/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -325,7 +317,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>https://www.ateachr.com/tags/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -334,7 +326,7 @@
     
     <url>
     
-      <loc>/tags/technology-innovation/</loc>
+      <loc>https://www.ateachr.com/tags/technology-innovation/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -343,7 +335,7 @@
     
     <url>
     
-      <loc>/tags/visualization/</loc>
+      <loc>https://www.ateachr.com/tags/visualization/</loc>
       <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -352,8 +344,8 @@
     
     <url>
     
-      <loc>/tags/git/</loc>
-      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
+      <loc>https://www.ateachr.com/tags/git/</loc>
+      <lastmod>2019-01-07T08:30:44-05:00</lastmod>
       <priority>0</priority>
     </url>
     

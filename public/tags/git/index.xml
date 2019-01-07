@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on Sanjeev Kumar</title>
-    <link>/tags/git/</link>
+    <link>https://www.ateachr.com/tags/git/</link>
     <description>Recent content in git on Sanjeev Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ateachr.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My Git Archive</title>
-      <link>/post/git-shortcuts/</link>
+      <link>https://www.ateachr.com/post/git-shortcuts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/post/git-shortcuts/</guid>
+      <guid>https://www.ateachr.com/post/git-shortcuts/</guid>
       <description> This is a repository of the Git commands I use to connect my RStudio with GitHub.
 Git Commands Archive git add --all git commit -m &amp;quot;comment&amp;quot; git push  testing R in markdown str(iris) plot(iris)  </description>
     </item>

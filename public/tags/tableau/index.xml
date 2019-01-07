@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tableau on Sanjeev Kumar</title>
-    <link>/tags/tableau/</link>
+    <link>https://www.ateachr.com/tags/tableau/</link>
     <description>Recent content in Tableau on Sanjeev Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="/tags/tableau/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ateachr.com/tags/tableau/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TO404 Big Data Manipulation &amp; Visualization</title>
-      <link>/project/to404/</link>
+      <link>https://www.ateachr.com/project/to404/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/project/to404/</guid>
+      <guid>https://www.ateachr.com/project/to404/</guid>
       <description>Insert course details.</description>
     </item>
     

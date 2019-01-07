@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology Innovation on Sanjeev Kumar</title>
-    <link>/tags/technology-innovation/</link>
+    <link>https://www.ateachr.com/tags/technology-innovation/</link>
     <description>Recent content in Technology Innovation on Sanjeev Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="/tags/technology-innovation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.ateachr.com/tags/technology-innovation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>TO426 Mobile Innovation Development</title>
-      <link>/project/to426/</link>
+      <link>https://www.ateachr.com/project/to426/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/project/to426/</guid>
+      <guid>https://www.ateachr.com/project/to426/</guid>
       <description>Insert course details.</description>
     </item>
     
     <item>
       <title>TO626 Mobile Innovation Development</title>
-      <link>/project/to626/</link>
+      <link>https://www.ateachr.com/project/to626/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/project/to626/</guid>
+      <guid>https://www.ateachr.com/project/to626/</guid>
       <description>Insert course details.</description>
     </item>
     
     <item>
       <title>WMBA621 New Age of Innovation</title>
-      <link>/project/wmba621/</link>
+      <link>https://www.ateachr.com/project/wmba621/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/project/wmba621/</guid>
+      <guid>https://www.ateachr.com/project/wmba621/</guid>
       <description>Insert course details.</description>
     </item>
     
