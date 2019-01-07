@@ -10,38 +10,6 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>My Git Shortcuts</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>
-
-
-&lt;div id=&#34;git-commands-archive&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Git Commands Archive&lt;/h1&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;git add --all
-git commit -m &amp;quot;comment&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Starting Your R Journey</title>
-      <link>/post/2019-01-05-starting-r/</link>
-      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019-01-05-starting-r/</guid>
-      <description>
-
-
-&lt;div id=&#34;getting-started-with-r&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Getting Started with R&lt;/h2&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Example Page</title>
       <link>/tutorial/example/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 -0400</pubDate>
@@ -116,16 +84,6 @@ git commit -m &amp;quot;comment&amp;quot;&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
-      <title>TO414 Advanced Analytics</title>
-      <link>/project/wmba621/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>/project/wmba621/</guid>
-      <description>&lt;p&gt;Insert course details.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>TO426 Mobile Innovation Development</title>
       <link>/project/to426/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
@@ -171,6 +129,16 @@ git commit -m &amp;quot;comment&amp;quot;&lt;/code&gt;&lt;/pre&gt;
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/project/to633/</guid>
+      <description>&lt;p&gt;Insert course details.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WMBA621 New Age of Innovation</title>
+      <link>/project/wmba621/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/project/wmba621/</guid>
       <description>&lt;p&gt;Insert course details.&lt;/p&gt;
 </description>
     </item>
@@ -548,11 +516,46 @@ git submodule update --init --recursive
     </item>
     
     <item>
+      <title>My Git Archive</title>
+      <link>/post/git-shortcuts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/post/git-shortcuts/</guid>
+      <description>
+
+&lt;p&gt;This is a repository of the Git commands I use to connect my RStudio with GitHub.&lt;/p&gt;
+
+&lt;h2 id=&#34;git-commands-archive&#34;&gt;Git Commands Archive&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r,&#34;&gt;git add --all
+git commit -m &amp;quot;comment&amp;quot;
+git push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;testing-r-in-markdown&#34;&gt;testing R in markdown&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;str(iris)
+plot(iris)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Person Re-Identification System For Mobile Devices</title>
       <link>/publication/person-re-id/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0400</pubDate>
       
       <guid>/publication/person-re-id/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile visual clothing search</title>
+      <link>/publication/clothing-search/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/clothing-search/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>

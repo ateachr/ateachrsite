@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Sanjeev Kumar</title>
+    <link>https://www.ateachr.com/categories/git/</link>
+    <description>Recent content in Git on Sanjeev Kumar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ateachr.com/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Git Shortcuts</title>
+      <link>https://www.ateachr.com/post/git-shortcuts/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ateachr.com/post/git-shortcuts/2015-07-23-r-rmarkdown/</guid>
+      <description> Git Commands Archive git add --all git commit -m &amp;quot;comment&amp;quot; git push  </description>
+    </item>
+    
+  </channel>
+</rss>

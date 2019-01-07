@@ -12,21 +12,14 @@
     
     
     <item>
-      <title>My Git Shortcuts</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description> Git Commands Archive git add --all git commit -m &amp;quot;comment&amp;quot;  </description>
-    </item>
-    
-    <item>
       <title>Starting Your R Journey</title>
-      <link>/post/2019-01-05-starting-r/</link>
+      <link>/post/starting-r/starting-r/</link>
       <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019-01-05-starting-r/</guid>
-      <description> Getting Started with R  </description>
+      <guid>/post/starting-r/starting-r/</guid>
+      <description>test
+ Getting Started with R this is a test
+str(iris) ## &amp;#39;data.frame&amp;#39;: 150 obs. of 5 variables: ## $ Sepal.Length: num 5.1 4.9 4.7 4.6 5 5.4 4.6 5 4.4 4.9 ... ## $ Sepal.Width : num 3.5 3 3.2 3.1 3.6 3.9 3.4 3.4 2.9 3.1 ... ## $ Petal.Length: num 1.4 1.4 1.3 1.5 1.4 1.7 1.4 1.5 1.4 1.5 ... ## $ Petal.Width : num 0.</description>
     </item>
     
   </channel>

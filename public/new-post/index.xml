@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Posts on Sanjeev Kumar</title>
+    <link>/new-post/</link>
+    <description>Recent content in New Posts on Sanjeev Kumar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/new-post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blogdown New Post II</title>
+      <link>/new-post/blogdown-new-post-ii/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/new-post/blogdown-new-post-ii/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

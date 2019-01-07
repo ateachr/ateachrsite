@@ -6,27 +6,19 @@
     <description>Recent content in git on Sanjeev Kumar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My Git Shortcuts</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      <title>My Git Archive</title>
+      <link>/post/git-shortcuts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description> Git Commands Archive git add --all git commit -m &amp;quot;comment&amp;quot;  </description>
-    </item>
-    
-    <item>
-      <title>Starting Your R Journey</title>
-      <link>/post/2019-01-05-starting-r/</link>
-      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019-01-05-starting-r/</guid>
-      <description> Getting Started with R  </description>
+      <guid>/post/git-shortcuts/</guid>
+      <description> This is a repository of the Git commands I use to connect my RStudio with GitHub.
+Git Commands Archive git add --all git commit -m &amp;quot;comment&amp;quot; git push  testing R in markdown str(iris) plot(iris)  </description>
     </item>
     
   </channel>

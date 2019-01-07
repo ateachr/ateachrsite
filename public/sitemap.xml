@@ -4,22 +4,6 @@
     
     <url>
     
-      <loc>/post/2015-07-23-r-rmarkdown/</loc>
-      <lastmod>2019-01-06T07:57:49-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/2019-01-05-starting-r/</loc>
-      <lastmod>2019-01-06T07:57:49-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/tutorial/example/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
     </url>
@@ -77,7 +61,7 @@
     <url>
     
       <loc>/project/to404/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
   
@@ -85,15 +69,7 @@
     <url>
     
       <loc>/project/to414/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/wmba621/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
   
@@ -101,7 +77,7 @@
     <url>
     
       <loc>/project/to426/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
   
@@ -109,7 +85,7 @@
     <url>
     
       <loc>/project/to433/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
   
@@ -117,7 +93,7 @@
     <url>
     
       <loc>/project/to626/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
   
@@ -125,7 +101,7 @@
     <url>
     
       <loc>/project/to628/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
   
@@ -133,7 +109,15 @@
     <url>
     
       <loc>/project/to633/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/wmba621/</loc>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
     </url>
     
   
@@ -142,6 +126,14 @@
     
       <loc>/post/getting-started/</loc>
       <lastmod>2019-01-05T11:23:54-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/post/git-shortcuts/</loc>
+      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
     </url>
     
   
@@ -192,7 +184,7 @@
     <url>
     
       <loc>/tags/android/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -201,7 +193,7 @@
     <url>
     
       <loc>/tags/artificial-intelligence/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -210,7 +202,7 @@
     <url>
     
       <loc>/tags/big-data-analytics/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -227,7 +219,7 @@
     <url>
     
       <loc>/tags/entrepreneurship/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -236,7 +228,7 @@
     <url>
     
       <loc>/tags/java/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -245,7 +237,7 @@
     <url>
     
       <loc>/tags/machine-learning/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -254,7 +246,7 @@
     <url>
     
       <loc>/tags/predictive-analytics/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -263,7 +255,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -281,7 +273,7 @@
     <url>
     
       <loc>/tags/r/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -289,17 +281,8 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
-      <lastmod>2019-01-06T07:57:49-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/r-markdown/</loc>
-      <lastmod>2019-01-06T07:57:49-05:00</lastmod>
+      <loc>/tags/rstudio/</loc>
+      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -334,7 +317,7 @@
     <url>
     
       <loc>/tags/tableau/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -352,7 +335,7 @@
     <url>
     
       <loc>/tags/technology-innovation/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -361,7 +344,7 @@
     <url>
     
       <loc>/tags/visualization/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-06T13:07:49-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -370,7 +353,7 @@
     <url>
     
       <loc>/tags/git/</loc>
-      <lastmod>2019-01-06T07:57:49-05:00</lastmod>
+      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -1,16 +1,16 @@
 +++
 # Project title.
-title = "TO414 Advanced Analytics"
+title = "WMBA621 New Age of Innovation"
 
 # Date this page was created.
 date = 2016-04-27T00:00:00
 
 # Project summary to display on homepage.
-summary = "Machine Learning and Predictive Analytics using R"
+summary = "Technoloy led Innovation and Digital Transformation"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Big Data Analytics", "R", "Machine Learning", "Predictive Analytics"]
+tags = ["Technology Innovation"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
